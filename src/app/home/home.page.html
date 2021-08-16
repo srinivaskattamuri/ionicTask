@@ -80,7 +80,7 @@
         <span class="error" *ngIf="registrationForm?.controls?.passwordFld?.touched && registrationForm?.controls?.passwordFld?.errors?.minlength">
           {{'HOME.VALIDATIONS.PASSWORD_PATTERN' | translate}}
         </span>
-        <ion-button type="submit" expand="block">{{'HOME.FORM_FIELDS.SUBMIT' | translate}} </ion-button>
+        <ion-button type="submit" expand="block" [disabled]="!registrationForm.valid">{{'HOME.FORM_FIELDS.SUBMIT' | translate}} </ion-button>
       </form>
     </ion-card-content>
   </ion-card>

@@ -65,7 +65,7 @@ export class HomePage implements OnInit {
       this.commonSvc.createUser(reqData).subscribe((res: any) => {
         console.log(res);
         if (res) {
-          this.presentToast(res.status , reqData);
+          this.presentToast(res.status);
         }
       },
         (error) => {
@@ -74,9 +74,9 @@ export class HomePage implements OnInit {
     }
   }
 
-  async presentToast(message,formData?:any) {
+  async presentToast(message) {
     const toast = await this.toastController.create({
-      message: `${message} ${JSON.stringify(formData)}` ,
+      message ,
       duration: 2000
     });
     toast.present();
