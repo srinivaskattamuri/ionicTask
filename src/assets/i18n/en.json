@@ -1,0 +1,28 @@
+ {
+  "HOME": {
+    "TITLE": "121 Platform Register",
+    "FORM_TITLE": "Registraion Form",
+    "FORM_FIELDS":{
+      "NAME":"Name",
+      "DOB":"Date of Birth",
+      "GENDER":"Gender",
+      "MALE":"Male",
+      "FEMALE":"Female",
+      "PHONE_NUMBER":"Phone Number",
+      "EMAIL":"Email",
+      "PASSWORD":"password",
+      "SUBMIT":"Submit"
+    },
+    "VALIDATIONS":{
+      "NAME_REQUIRED":"Please Enter Name",
+      "DOB_REQUIRED":"Please Select Date of Birth",
+      "GENDER_REQUIRED":"Please Select Gender",
+      "PHONE_NUMBER_REQUIRED":"Please Enter Phone Number",
+      "PHONE_NUMBER_PATTERN":"Phone Number is a Numberic Field",
+      "EMAIL_REQUIRED":"Please Enter Email",
+      "EMAIL_PATTERN":"Please Enter Valid Email",
+      "PASSWORD_REQUIRED":"Please Enter Password",
+      "PASSWORD_PATTERN":"Password should have Minimum 6 Chars"
+    }
+  }
+}

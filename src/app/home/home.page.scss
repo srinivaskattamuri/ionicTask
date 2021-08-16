@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 #container {
   text-align: center;
 
@@ -25,3 +27,34 @@
 #container a {
   text-decoration: none;
 }
+
+.error{
+  color:$errorColor
+}
+
+.alignHeaderItems{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+
+.align_center{
+  text-align: center;
+}
+
+.alignSegm{
+  width:40%
+}
+
+.alignRadioGrp{
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+// .txt_lbl{
+//   font-size: 16px;
+//   color: white
+// }

@@ -1,0 +1,28 @@
+{
+  "HOME": {
+    "TITLE": "121 Registre de la plate-forme",
+    "FORM_TITLE": "Formulaire d'inscription",
+    "FORM_FIELDS":{
+      "NAME":"Nom",
+      "DOB":"Date de naissance",
+      "GENDER":"Le genre",
+      "MALE":"Mâle",
+      "FEMALE":"Femme",
+      "PHONE_NUMBER":"Numéro de téléphone",
+      "EMAIL":"E-mail",
+      "PASSWORD":"le mot de passe",
+      "SUBMIT":"Soumettre"
+    },
+    "VALIDATIONS":{
+      "NAME_REQUIRED":"Veuillez entrer le nom",
+      "DOB_REQUIRED":"Veuillez sélectionner la date de naissance",
+      "GENDER_REQUIRED":"Veuillez sélectionner le sexe",
+      "PHONE_NUMBER_REQUIRED":"Veuillez entrer le numéro de téléphone",
+      "PHONE_NUMBER_PATTERN":"Le numéro de téléphone est un champ numérique",
+      "EMAIL_REQUIRED":"Veuillez entrer l'e-mail",
+      "EMAIL_PATTERN":"Veuillez entrer un e-mail valide",
+      "PASSWORD_REQUIRED":"Veuillez entrer le mot de passe",
+      "PASSWORD_PATTERN":"Le mot de passe doit avoir au moins 6 caractères"
+    }
+  }
+}
